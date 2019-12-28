@@ -1,0 +1,18 @@
+<include>
+  <gateway name="sipus-outbound">
+    <param name="username" value="5227839346"/>
+    <param name="password" value="serkrxwyw92qrb95"/>
+    <param name="realm" value="sipus-outbound"/>
+    <param name="proxy" value="gw.sip.us"/>
+    <param name="register" value="false"/>
+  </gateway>
+  <gateway name="sipus-inbound">
+    <param name="username" value="5227839346"/>
+    <param name="password" value="serkrxwyw92qrb95"/>
+    <param name="realm" value="sipus-inbound"/>
+    <param name="extension" value="1000"/>
+    <param name="proxy" value="gw.sip.us"/>
+    <param name="register-proxy" value="gw.sip.us"/>
+    <param name="expire-seconds" value="90"/>
+  </gateway>
+</include>

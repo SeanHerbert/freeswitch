@@ -1,0 +1,438 @@
+2019-12-28 04:01:36.445691 [DEBUG] switch_ivr_originate.c:2138 Parsing global variables
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [NOTICE] switch_channel.c:1104 New Channel sofia/external/ [387e5499-3e6c-4840-a651-ba45e4a99dbc]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] mod_sofia.c:4808 (sofia/external/) State Change CS_NEW -> CS_INIT
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:584 (sofia/external/) Running State Change CS_INIT (Cur 1 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:627 (sofia/external/) State INIT
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] mod_sofia.c:90 sofia/external/ SOFIA INIT
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] sofia_glue.c:1283 sofia/external/ sending invite version: 1.6.14 git e460bf8 2017-01-11 05:02:57Z 64bit
+387e5499-3e6c-4840-a651-ba45e4a99dbc Local SDP:
+387e5499-3e6c-4840-a651-ba45e4a99dbc v=0
+387e5499-3e6c-4840-a651-ba45e4a99dbc o=FreeSWITCH 1577478928 1577478929 IN IP4 172.31.40.118
+387e5499-3e6c-4840-a651-ba45e4a99dbc s=FreeSWITCH
+387e5499-3e6c-4840-a651-ba45e4a99dbc c=IN IP4 172.31.40.118
+387e5499-3e6c-4840-a651-ba45e4a99dbc t=0 0
+387e5499-3e6c-4840-a651-ba45e4a99dbc m=audio 26768 RTP/AVP 102 9 0 8 104 101
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:102 opus/48000/2
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=fmtp:102 useinbandfec=1; maxaveragebitrate=30000; maxplaybackrate=48000; ptime=20; minptime=10; maxptime=40
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:9 G722/8000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:0 PCMU/8000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:8 PCMA/8000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:104 telephone-event/48000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=fmtp:104 0-16
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:101 telephone-event/8000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=fmtp:101 0-16
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=ptime:20
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=sendrecv
+387e5499-3e6c-4840-a651-ba45e4a99dbc m=video 29716 RTP/AVP 103
+387e5499-3e6c-4840-a651-ba45e4a99dbc b=AS:1024
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtpmap:103 VP8/90000
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtcp-fb:103 ccm fir
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtcp-fb:103 ccm tmmbr
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtcp-fb:103 nack
+387e5499-3e6c-4840-a651-ba45e4a99dbc a=rtcp-fb:103 nack pli
+387e5499-3e6c-4840-a651-ba45e4a99dbc 
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:40 sofia/external/ Standard INIT
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:48 (sofia/external/) State Change CS_INIT -> CS_ROUTING
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:627 (sofia/external/) State INIT going to sleep
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:584 (sofia/external/) Running State Change CS_ROUTING (Cur 1 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] sofia.c:7041 Channel sofia/external/ entering state [calling][0]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:643 (sofia/external/) State ROUTING
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] mod_sofia.c:143 sofia/external/ SOFIA ROUTING
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_ivr_originate.c:67 (sofia/external/) State Change CS_ROUTING -> CS_CONSUME_MEDIA
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:643 (sofia/external/) State ROUTING going to sleep
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:584 (sofia/external/) Running State Change CS_CONSUME_MEDIA (Cur 1 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:662 (sofia/external/) State CONSUME_MEDIA
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.445691 [DEBUG] switch_core_state_machine.c:662 (sofia/external/) State CONSUME_MEDIA going to sleep
+send 1429 bytes to udp/[65.254.44.194]:5060 at 04:01:36.470708:
+   ------------------------------------------------------------------------
+   INVITE sip:@gw.sip.us SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK3Upe5BejDjN0a
+   Max-Forwards: 70
+   From: "" <sip:5227839346@gw.sip.us>;tag=U6e1HNy00gNvF
+   To: <sip:@gw.sip.us>
+   Call-ID: 958f46bd-a3c9-1238-8dbc-0a054162876a
+   CSeq: 14199056 INVITE
+   Contact: <sip:gw+sipus-outbound@172.31.40.118:5080;transport=udp;gw=sipus-outbound>
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Allow-Events: talk, hold, conference, refer
+   Content-Type: application/sdp
+   Content-Disposition: session
+   Content-Length: 623
+   X-FS-Support: update_display,send_info
+   Remote-Party-ID: <sip:0000000000@gw.sip.us>;party=calling;screen=yes;privacy=off
+   
+   v=0
+   o=FreeSWITCH 1577478928 1577478929 IN IP4 172.31.40.118
+   s=FreeSWITCH
+   c=IN IP4 172.31.40.118
+   t=0 0
+   m=audio 26768 RTP/AVP 102 9 0 8 104 101
+   a=rtpmap:102 opus/48000/2
+   a=fmtp:102 useinbandfec=1; maxaveragebitrate=30000; maxplaybackrate=48000; ptime=20; minptime=10; maxptime=40
+   a=rtpmap:9 G722/8000
+   a=rtpmap:0 PCMU/8000
+   a=rtpmap:8 PCMA/8000
+   a=rtpmap:104 telephone-event/48000
+   a=fmtp:104 0-16
+   a=rtpmap:101 telephone-event/8000
+   a=fmtp:101 0-16
+   a=ptime:20
+   m=video 29716 RTP/AVP 103
+   b=AS:1024
+   a=rtpmap:103 VP8/90000
+   a=rtcp-fb:103 ccm fir
+   a=rtcp-fb:103 ccm tmmbr
+   a=rtcp-fb:103 nack
+   a=rtcp-fb:103 nack pli
+   ------------------------------------------------------------------------
+recv 331 bytes from udp/[65.254.44.194]:5060 at 04:01:36.496085:
+   ------------------------------------------------------------------------
+   SIP/2.0 403 Forbidden
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK3Upe5BejDjN0a;received=3.136.158.50
+   From: "" <sip:5227839346@gw.sip.us>;tag=U6e1HNy00gNvF
+   To: <sip:@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.a71b
+   Call-ID: 958f46bd-a3c9-1238-8dbc-0a054162876a
+   CSeq: 14199056 INVITE
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 324 bytes to udp/[65.254.44.194]:5060 at 04:01:36.496172:
+   ------------------------------------------------------------------------
+   ACK sip:@gw.sip.us SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK3Upe5BejDjN0a
+   Max-Forwards: 70
+   From: "" <sip:5227839346@gw.sip.us>;tag=U6e1HNy00gNvF
+   To: <sip:@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.a71b
+   Call-ID: 958f46bd-a3c9-1238-8dbc-0a054162876a
+   CSeq: 14199056 ACK
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] sofia.c:7041 Channel sofia/external/ entering state [terminated][403]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [NOTICE] sofia.c:8212 Hangup sofia/external/ [CS_CONSUME_MEDIA] [CALL_REJECTED]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:584 (sofia/external/) Running State Change CS_HANGUP (Cur 1 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:850 (sofia/external/) Callstate Change DOWN -> HANGUP
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:852 (sofia/external/) State HANGUP
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] mod_sofia.c:438 Channel sofia/external/ hanging up, cause: CALL_REJECTED
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:60 sofia/external/ Standard HANGUP, cause: CALL_REJECTED
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:852 (sofia/external/) State HANGUP going to sleep
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:619 (sofia/external/) State Change CS_HANGUP -> CS_REPORTING
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:584 (sofia/external/) Running State Change CS_REPORTING (Cur 1 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:938 (sofia/external/) State REPORTING
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:174 sofia/external/ Standard REPORTING, cause: CALL_REJECTED
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:938 (sofia/external/) State REPORTING going to sleep
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:610 (sofia/external/) State Change CS_REPORTING -> CS_DESTROY
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_session.c:1647 Session 7 (sofia/external/) Locked, Waiting on external entities
+2019-12-28 04:01:36.485695 [DEBUG] switch_ivr_originate.c:3829 Originate Resulted in Error Cause: 21 [CALL_REJECTED]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [NOTICE] switch_core_session.c:1665 Session 7 (sofia/external/) Ended
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [NOTICE] switch_core_session.c:1669 Close Channel sofia/external/ [CS_DESTROY]
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:741 (sofia/external/) Running State Change CS_DESTROY (Cur 0 Tot 7)
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:751 (sofia/external/) State DESTROY
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] mod_sofia.c:343 sofia/external/ SOFIA DESTROY
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:181 sofia/external/ Standard DESTROY
+387e5499-3e6c-4840-a651-ba45e4a99dbc 2019-12-28 04:01:36.485695 [DEBUG] switch_core_state_machine.c:751 (sofia/external/) State DESTROY going to sleep
+send 896 bytes to udp/[74.81.71.18]:5060 at 04:01:54.539402:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK44F766yNaUBKp
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198980 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbVl14G0z81aARBRe4rCNCNP2Zyt6iCbiphqAC4qBaOjQTqDU9nejBg8wTD", cnonce="INAqaaPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="84a754ea15fc67c6c6ca6dc79dfe1bcc", qop=auth, nc=00000008
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 469 bytes from udp/[74.81.71.18]:5060 at 04:01:54.573901:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK44F766yNaUBKp;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>;tag=6b55604b003175432ccabd664d6002bd.55c3
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198980 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbV7l4G05Y7p6eZd+7oGiboMucI07JTKoNr8cyQWJFxp2B24xeTEHQNTajA", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 896 bytes to udp/[65.254.44.194]:5060 at 04:01:54.574046:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK5D9Z81FS7315H
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198981 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbV7l4G05Y7p6eZd+7oGiboMucI07JTKoNr8cyQWJFxp2B24xeTEHQNTajA", cnonce="INAqaaPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="193baebe4c19419871b1436066e462b1", qop=auth, nc=00000009
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 469 bytes from udp/[65.254.44.194]:5060 at 04:01:54.599455:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK5D9Z81FS7315H;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.701c
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198981 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbV7l4G05ZX5lX5/HzK8XNN76MsvX39biphqAC4qBaOjQTqDU9nejBjBhXD", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 610 bytes to udp/[65.254.44.194]:5060 at 04:01:54.599749:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK6p2raX0v4crrD
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198982 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 0
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+2019-12-28 04:01:54.585701 [ERR] sofia_reg.c:2447 sipus-inbound Failed Registration with status Operation has no matching challenge  [904]. failure #1
+2019-12-28 04:01:54.605662 [WARNING] sofia_reg.c:505 sipus-inbound Failed Registration [904], setting retry to 30 seconds.
+recv 469 bytes from udp/[65.254.44.194]:5060 at 04:01:54.625127:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK6p2raX0v4crrD;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.50f1
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198982 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbV7l4G05b74nfABrT8cTbAu8NX320/biphqAC4qBaOjQTqDU9nelEA8b/A", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 895 bytes to udp/[65.254.44.194]:5060 at 04:01:54.625231:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK7ZUHcrH01NeBS
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198983 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 0
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbV7l4G05b74nfABrT8cTbAu8NX320/biphqAC4qBaOjQTqDU9nelEA8b/A", cnonce="oGMJ8qPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="2e5673218f1b3b1487e970d936ee5877", qop=auth, nc=00000001
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 333 bytes from udp/[65.254.44.194]:5060 at 04:01:54.652528:
+   ------------------------------------------------------------------------
+   SIP/2.0 200 OK
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK7ZUHcrH01NeBS;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=SmvFeZvS6y8pr
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.07ed
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14198983 REGISTER
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+2019-12-28 04:02:25.665675 [NOTICE] sofia_reg.c:448 Registering sipus-inbound
+send 896 bytes to udp/[65.254.44.194]:5060 at 04:02:25.678513:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK88maeK23yy4Xm
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199080 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbV7l4G05b74nfABrT8cTbAu8NX320/biphqAC4qBaOjQTqDU9nelEA8b/A", cnonce="oGMJ8qPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="e2d2aae94569d8cfb6f3b489970d778e", qop=auth, nc=00000002
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 464 bytes from udp/[65.254.44.194]:5060 at 04:02:25.706130:
+   ------------------------------------------------------------------------
+   SIP/2.0 200 OK
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK88maeK23yy4Xm;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.eeba
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199080 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>;q=0;expires=90;received="sip:3.136.158.50:5080"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+2019-12-28 04:02:25.705685 [DEBUG] sofia.c:2031 nua_i_outbound: unknown event 8: 101 NAT detected
+send 896 bytes to udp/[65.254.44.194]:5060 at 04:03:25.541215:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bK9He3FeK7U7tgg
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199081 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbV7l4G05b74nfABrT8cTbAu8NX320/biphqAC4qBaOjQTqDU9nelEA8b/A", cnonce="oGMJ8qPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="97853c9172873e32dbbab89b831adda1", qop=auth, nc=00000003
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 464 bytes from udp/[65.254.44.194]:5060 at 04:03:25.568753:
+   ------------------------------------------------------------------------
+   SIP/2.0 200 OK
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bK9He3FeK7U7tgg;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.e847
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199081 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>;q=0;expires=90;received="sip:3.136.158.50:5080"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 896 bytes to udp/[74.81.71.18]:5060 at 04:04:26.540490:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bKaU7UH93aSgH3B
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199082 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbV7l4G05b74nfABrT8cTbAu8NX320/biphqAC4qBaOjQTqDU9nelEA8b/A", cnonce="oGMJ8qPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="c2d19516a4eb0c956ea0cbe71930e3da", qop=auth, nc=00000004
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 469 bytes from udp/[74.81.71.18]:5060 at 04:04:26.574782:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bKaU7UH93aSgH3B;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=6b55604b003175432ccabd664d6002bd.0bbb
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199082 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbWhl4G1C4Sf6pq3d7QZC6VdV0NMDH2KoNr8cyQWJFxp2B24xeTEDMDN53D", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 896 bytes to udp/[65.254.44.194]:5060 at 04:04:26.576265:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bKB40mK4mepS7NQ
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199083 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 90
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbWhl4G1C4Sf6pq3d7QZC6VdV0NMDH2KoNr8cyQWJFxp2B24xeTEDMDN53D", cnonce="oGMJ8qPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="e0253fed0da8a88afc7cb0cdcde3cbd7", qop=auth, nc=00000005
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 469 bytes from udp/[65.254.44.194]:5060 at 04:04:26.601690:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bKB40mK4mepS7NQ;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.82d2
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199083 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbWhl4G1C5PXenV491Z06CQjfXa8vAwbiphqAC4qBaOjQTqDU9nejBmYGzD", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 610 bytes to udp/[65.254.44.194]:5060 at 04:04:26.601981:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bKcDtDNZ5HK2X8j
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199084 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 0
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+2019-12-28 04:04:26.585689 [ERR] sofia_reg.c:2447 sipus-inbound Failed Registration with status Operation has no matching challenge  [904]. failure #1
+recv 469 bytes from udp/[65.254.44.194]:5060 at 04:04:26.627401:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bKcDtDNZ5HK2X8j;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=2484f1a5f06b7307c34ab1dd8d74150a.2e17
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199084 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbWhl4G1C6gwYb6rv1kCmyhKfxcLtRKbiphqAC4qBaOjQTqDU9nelEEMv3A", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+send 895 bytes to udp/[74.81.71.18]:5060 at 04:04:26.627543:
+   ------------------------------------------------------------------------
+   REGISTER sip:gw.sip.us;transport=udp SIP/2.0
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport;branch=z9hG4bKDpK6ptpNgBmUe
+   Max-Forwards: 70
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199085 REGISTER
+   Contact: <sip:gw+sipus-inbound@172.31.40.118:5080;transport=udp;gw=sipus-inbound>
+   Expires: 0
+   User-Agent: FreeSWITCH-mod_sofia/1.6.14+git~20170111T050257Z~e460bf8539~64bit
+   Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+   Supported: timer, path, replaces
+   Authorization: Digest username="5227839346", realm="gw.sip.us", nonce="XgbWhl4G1C6gwYb6rv1kCmyhKfxcLtRKbiphqAC4qBaOjQTqDU9nelEEMv3A", cnonce="+vy/kqPJEji8jQoFQWKHag", algorithm=MD5, uri="sip:gw.sip.us;transport=udp", response="6cfcfdf584edf404a6a47d329309a7af", qop=auth, nc=00000001
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+recv 469 bytes from udp/[74.81.71.18]:5060 at 04:04:26.661796:
+   ------------------------------------------------------------------------
+   SIP/2.0 401 Unauthorized
+   Via: SIP/2.0/UDP 172.31.40.118:5080;rport=5080;branch=z9hG4bKDpK6ptpNgBmUe;received=3.136.158.50
+   From: <sip:5227839346@gw.sip.us>;tag=vF8SKgF4XSBFB
+   To: <sip:5227839346@gw.sip.us>;tag=6b55604b003175432ccabd664d6002bd.9bab
+   Call-ID: 0e3b14fe-9b26-489e-b3b7-6c5dc53a79f8
+   CSeq: 14199085 REGISTER
+   WWW-Authenticate: Digest realm="gw.sip.us", nonce="XgbWhl4G1C5coERLOK7976Gbx5klzjK/KoNr8cyQWJFxp2B24xeTEHQOJX/A", qop="auth"
+   Content-Length: 0
+   
+   ------------------------------------------------------------------------
+2019-12-28 04:04:26.845722 [WARNING] sofia_reg.c:505 sipus-inbound Failed Registration [904], setting retry to 30 seconds.
